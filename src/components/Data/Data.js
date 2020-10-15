@@ -9,7 +9,7 @@ const Data = () => {
     const [orderData, setOrderData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/order')
+        fetch('https://shrouded-plateau-85923.herokuapp.com/order')
         .then(res => res.json())
         .then(data => setOrderData(data));
     }, []);
@@ -21,7 +21,7 @@ const Data = () => {
     const [isOrder, setIsOrder] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5000/isOrder', {
+        fetch('https://shrouded-plateau-85923.herokuapp.com/isOrder', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ email: loggedInUser.email })

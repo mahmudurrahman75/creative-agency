@@ -13,14 +13,14 @@ const ServiceList = () => {
 
 
     // useEffect(() => {
-    //     fetch('http://localhost:5000/orders?email='+loggedInUser.email)
+    //     fetch('https://shrouded-plateau-85923.herokuapp.com/orders?email='+loggedInUser.email)
     //     .then(res => res.json())
     //     .then(data => setOrderData(data));
     // }, []);
 
     
     useEffect(() => {
-        fetch('http://localhost:5000/order')
+        fetch('https://shrouded-plateau-85923.herokuapp.com/order')
         .then(res => res.json())
         .then(data => setOrderData(data));
     }, []);

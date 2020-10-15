@@ -22,7 +22,7 @@ const MakeAdmin = () => {
 
     const handelReview = () => {
         const newRegister = {...loggedInUser, ...registerData};
-        fetch('http://localhost:5000/addOrder', {
+        fetch('https://shrouded-plateau-85923.herokuapp.com/addOrder', {
             method: 'POST',
             headers: {'content-Type': 'application/json'},
             body: JSON.stringify(newRegister)

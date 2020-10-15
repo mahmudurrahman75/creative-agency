@@ -15,7 +15,7 @@ const Feedback = () => {
     const [orderData, setOrderData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/order')
+        fetch('https://shrouded-plateau-85923.herokuapp.com/order')
         .then(res => res.json())
         .then(data => setOrderData(data));
     }, []);
