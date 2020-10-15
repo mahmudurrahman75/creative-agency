@@ -1,0 +1,55 @@
+.order h2 {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.order a {
+    padding: 10px;
+    margin-top: 15px;
+}
+.order a:hover{
+    text-decoration: none;
+    color: orange;
+}
+
+.order p {
+    margin-left: 1000px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.form {
+    border: 1px solid lightslategray;
+    border-radius: 15px;
+    height: 480px;
+    width: 1000px;
+    padding: 20px;
+    background-color: #f0efef;
+    margin-left: 240px;
+}
+.form input {
+    border: none;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
+.form button {
+    margin: 6px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    color: block;
+    height: 35px;
+    width: 320px;
+    margin-top: 15px;
+}
+.form .test {
+    margin: 6px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    color: block;
+    height: 40px;
+    width: 150px;
+    margin-top: 15px;
+}
+.form .go-btn:hover {
+    background-color: goldenrod;
+}

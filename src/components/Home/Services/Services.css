@@ -1,0 +1,15 @@
+.services-container {
+    height: 450px;
+    margin-bottom: 30px;
+}
+.serviceBd:hover {
+    height: 250px;
+    width: 320px;
+    box-shadow: 8px 8px 20px gray;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: white;
+    scroll-behavior: smooth;
+    transition: transform 2s ease-in-out 0.3s;
+    text-decoration: none;
+}
