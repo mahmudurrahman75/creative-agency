@@ -6,8 +6,7 @@
   •	 Customer can order services, make review & get to know his all
   •	order.**
   
-  ### Tools & Technologies: React JS, Node JS & Express JS as Backend, MongoDB as Database,
-Bootstrap, Material UI, Firebase Authentication etc.
+  ### Tools & Technologies: React JS, Node JS & Express JS as Backend, MongoDB as Database,Bootstrap, Material UI, Firebase Authentication etc.
 
 [Linkedin Link](https://www.linkedin.com/in/md-mahmudur-rahman-8125991ba/)
 
