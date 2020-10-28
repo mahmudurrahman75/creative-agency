@@ -1,10 +1,13 @@
 # Project Name: creative-agency
 ## Project Detail:
 **•	It’s a complete responsive single page web application designed with React JS.
-•	A single-page web app with admin panel and customer.
-•	 An admin can add services, make new admin & see all services at the dashboard.
-•	 Customer can order services, make review & get to know his all
-•	order.**
+  •	A single-page web app with admin panel and customer.
+  •	 An admin can add services, make new admin & see all services at the dashboard.
+  •	 Customer can order services, make review & get to know his all
+  •	order.**
+  
+  ### Tools & Technologies: React JS, Node JS & Express JS as Backend, MongoDB as Database,
+Bootstrap, Material UI, Firebase Authentication etc.
 
 [Linkedin Link](https://www.linkedin.com/in/md-mahmudur-rahman-8125991ba/)
 
